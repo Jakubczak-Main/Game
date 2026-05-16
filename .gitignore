@@ -1,0 +1,27 @@
+# Build output
+/build*/
+/out/
+/cmake-build-*/
+
+# Local binaries
+*.exe
+*.dll
+*.lib
+*.a
+*.obj
+*.o
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Editor and OS noise
+.vs/
+.vscode/
+.idea/
+.venv/
+*.user
+Thumbs.db
+Desktop.ini
